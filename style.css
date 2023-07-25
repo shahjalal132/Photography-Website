@@ -1,0 +1,431 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Shah jalal
+	Author URI: http://www.shahjalal132.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typhography
+	2. Header Area
+		2.1 Menu Area
+		2.2 header-text 
+		2.3 Social icons
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 1. Typhography */
+
+h3{
+	font-size: 18px;
+	color: #16a085;
+	font-family: "GothamRoundedBold";
+	line-height: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 14px;
+	font-family: "GothamRoundedBook";
+	color: #373737;
+	line-height: 25px;
+}
+
+/* ----- fonts ----- */
+@font-face {
+    font-family: "GothamRoundedBook";
+    font-family: "GothamRoundedMedium";
+    font-family: "GothamRoundedBold";
+    src: url(fonts/GothamRoundedBook.woff);
+    src: url(fonts/GothamRoundedMedium.woff);
+    src: url(fonts/GothamRoundedBold.woff);
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+/****** 2. Header Area ******/
+
+.header-area{
+	background: url(images/header-bg.jpg) no-repeat center / 100% 100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+/****** 2.1 Menu Area ******/
+
+.nav-links{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-links li{
+	list-style: none;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.nav-links li a{
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "GothamRoundedBold";
+	letter-spacing: 3px;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.nav-links li a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+	margin: 0 45px;
+	width: 50px;
+	height: auto;
+}
+
+.nav-links .logo a{
+	border-bottom: none;
+}
+
+.nav-links .logo a:hover{
+	border-bottom: none;
+}
+
+/****** 2.2 header-text ******/
+
+.header-text{
+	margin: 130px 0;
+}
+
+.header-text h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: "GothamRoundedBold";
+	letter-spacing: 7px;
+	margin-bottom: 7px;
+}
+
+.header-text h5{
+	font-size: 18px;
+	font-family: "GothamRoundedMedium";
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+.button{
+	margin-top: 35px;
+}
+
+.button a{
+	color: #ffffff;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-family: "GothamRoundedBold";
+	padding: 20px 50px;
+	background-color: #16a085;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	border: 1px solid transparent;
+	transition: .5s;
+}
+
+.button a:hover{
+	border: 1px solid #16a085;
+	color: #16a085;
+	background-color: #ffffff;
+}
+
+
+
+
+
+/****** 2.3 Social icons ******/
+
+/* .header-icons{
+	margin-top: 100px;
+} */
+
+.social-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	padding-top: 35px;
+}
+
+.social-icons li{
+	list-style: none;
+	padding: 10px;
+}
+
+.social-icons li a i{
+	font-size: 25px;
+	color: #ffffff;
+}
+
+/****** get-started ******/
+
+.get-started{
+	padding: 50px;
+	background-color: #f5f6f7;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.get-started-text{
+	padding: 30px 20px 30px 0;
+	width: 50%;
+	
+}
+
+.get-started-images{
+	width: 50%;
+}
+
+.get-started-images img{
+	width: 100%;
+}
+
+/* design area */
+
+.design-area{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+
+.design-image{
+	width: 40%;
+}
+
+.design-text{
+	width: 60%;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.slide{
+	margin-top: 50px;
+}
+
+/* community area */
+
+.community-area{
+	padding: 60px 0;
+	background-color: #f5f6f7;
+}
+
+.slide{
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.community-row{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.community-images1{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/* subscribe area */
+
+.subscribe-area{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(images/subscribe-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.subscribe-items{
+    padding: 250px 0;
+}
+
+.subscribe-items h3{
+    color: #ffffff;
+}
+
+.subscribe-items form input{
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-items button{
+    padding: 10px;
+    background-color: #16a085;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    margin-left: -4px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* download area */
+
+.download-area{
+    background-color: #f5f6f7;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.download-items h3{
+    color: #373737;
+}
+
+.download-items p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #373737;
+    font-family: "GothamRoundedMedium";
+}
+
+.download form input{
+    font-size: 15px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: #1abc9c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "GothamRoundedBold";
+}
+
+.download form input::placeholder{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "GothamRoundedBold";
+}
+
+.download form button{
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: #16a085;
+    color: #fff;
+    margin-left: -4px;
+}
+
+.download form button i{
+    font-size: 15px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+}
+
+.apple{
+    margin-right: 20px;
+}
+
+/* footer area */
+
+.footer-area{
+	padding: 30px 0;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link li{
+    padding: 10px 15px 10px 0;
+    display: inline-block;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: #373737;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "GothamRoundedBold";
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.nav-link li a:hover{
+    border-bottom: 1px solid #373737;
+}
+
+.footer-items p{
+    font-size: 13px;
+    color: #373737;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
